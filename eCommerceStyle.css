@@ -11,6 +11,10 @@ header {
 	font-style: normal;
 	font-weight: 400;
 }
+.dark-mode {
+  background-color: black;
+  color: white;
+}
 /* Logo placeholder*/
 #logo {
 	float: left;
@@ -28,7 +32,7 @@ header {
 	text-align: right;
 	padding-top: 10px;
 	padding-bottom: 10px;
-	background-color: rgba(255,255,255,1.00);
+	
 }
 /* Links in header */
 #headerLinks a {
@@ -39,13 +43,13 @@ header {
 }
 /* Offer text banner*/
 section #offer{
-	background-image: url("images.jpg");
+	background-image: url("file:///C:/Users/mohit/Desktop/images.jpg");
 	object-fit: cover;
 }
 #offer {
 	font-family: 'Montserrat', sans-serif;
 	clear: both;
-	background-image: url("jaredd-craig-HH4WBGNyltc-unsplash.jpg");
+	background-image: url("file:///C:/Users/mohit/Downloads/jaredd-craig-HH4WBGNyltc-unsplash.jpg");
 	background-size: cover;
 	background-color: rgba(246,246,246,1.00);
 	color:darksalmon;
@@ -68,7 +72,6 @@ section #offer{
 	padding-left: 3%;
 	padding-right: 3%;
 	text-align: center;
-	background-color: rgba(246,246,246,1.00);
 	padding-top: 36px;
 	height: 784px;
 }
@@ -82,7 +85,6 @@ section #offer{
 /*menubar's properties for menus in sidebar */
 #content .sidebar #menubar {
 	text-align: left;
-	color: rgba(146,146,146,1.00);
 	position: relative;
 	left: 0%;
 }
@@ -92,15 +94,13 @@ section #offer{
 	border-radius: 0px;
 	height: 42px;
 	text-align: center;
-	color: rgba(208,207,207,1.00);
 	font-size: 14px;
-	;
 	margin-bottom: 21px;
 }
 /* Whole page content */
 #mainWrapper {
 	width: 100%;
-	padding-right: 5%;
+	padding-right: 1%;
 }
 /*menu elements */
 .menu ul li {
