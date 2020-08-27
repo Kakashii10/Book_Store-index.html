@@ -2,14 +2,19 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>eCommerce </title>
+<title>Online BOOk Store</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link href="eCommerceStyle.css" rel="stylesheet" type="text/css">
 <!--The following script tag downloads a font from the Adobe Edge Web Fonts server for use within the web page. We recommend that you do not modify it.-->
 <script>var __adobewebfontsappname__="dreamweaver"</script><script src="http://use.edgefonts.net/montserrat:n4:default;source-sans-pro:n2:default.js" type="text/javascript"></script>
 </head>
-
+<script>
+function myFunction() {
+   var element = document.body;
+   element.classList.toggle("dark-mode");
+}
+</script>
 <body>
 <div id="mainWrapper">
   <header> 
@@ -17,7 +22,9 @@
     <div id="logo"> <!-- <img src="logoImage.png" alt="sample logo"> --> 
       <!-- Company Logo text --> 
       ONline BOoks STore</div>
-    <div id="headerLinks"><a href="#" title="Login/Register">Login/Register</a><a href="#" title="Cart">Cart</a></div>
+    <div id="headerLinks">
+	<button onclick="myFunction()">Toggle dark mode</button> 
+	<a href="#" title="Login/Register">Login/Register</a><a href="#" title="Cart">Cart</a></div>
   </header>
   <section id="offer">
     <!-- The offer section displays a banner text for promotions -->
@@ -59,19 +66,19 @@
           <hr style="height: 3px; background-color: #00F3E7; border: none;">
       <div class="productRow"><!-- Each product row contains info of 3 elements -->
         <article class="productInfo"><!-- Each individual product description -->
-          <div><img src="400x361-books-science-nature.jpg" alt="sample"></div>
+          <div><img src="file:///C|/Users/mohit/Downloads/400x361-books-science-nature.jpg" alt="sample"></div>
           <p class="price">$50</p>
           <p class="productContent">Content holder </p>
           <input type="button" name="button" value="Buy" class="buyButton">
         </article>
         <article class="productInfo"><!-- Each individual product description -->
-          <div><img alt="sample" src="400x361-books-science-nature.jpg"></div>
+          <div><img alt="sample" src="file:///C|/Users/mohit/Downloads/400x361-books-science-nature.jpg"></div>
           <p class="price">$50</p>
           <p class="productContent">Content holder</p>
           <input type="button" name="button" value="Buy" class="buyButton">
         </article>
         <article class="productInfo"> <!-- Each individual product description -->
-          <div><img alt="sample" src="400x361-books-science-nature.jpg"></div>
+          <div><img alt="sample" src="file:///C|/Users/mohit/Downloads/400x361-books-science-nature.jpg"></div>
           <p class="price">$50</p>
           <p class="productContent">Content holder</p>
           <input type="button" name="button" value="Buy" class="buyButton">
@@ -82,19 +89,19 @@
       <div class="productRow"> 
         <!-- Each product row contains info of 3 elements -->
         <article class="productInfo"> <!-- Each individual product description -->
-          <div><img alt="sample" src="400x361-books-science-nature.jpg"></div>
+          <div><img alt="sample" src="file:///C|/Users/mohit/Downloads/400x361-books-science-nature.jpg"></div>
           <p class="price">$50</p>
           <p class="productContent">Content holder</p>
           <input type="button" name="button" value="Buy" class="buyButton">
         </article>
         <article class="productInfo"> <!-- Each individual product description -->
-          <div><img alt="sample" src="400x361-books-science-nature.jpg"></div>
+          <div><img alt="sample" src="file:///C|/Users/mohit/Downloads/400x361-books-science-nature.jpg"></div>
           <p class="price">$50</p>
           <p class="productContent">Content holder</p>
           <input type="button" name="button" value="Buy" class="buyButton">
         </article>
         <article class="productInfo"><!-- Each individual product description -->
-          <div><img alt="sample" src="400x361-books-science-nature.jpg"></div>
+          <div><img alt="sample" src="file:///C|/Users/mohit/Downloads/400x361-books-science-nature.jpg"></div>
           <p class="price">$50</p>
           <p class="productContent">Content holder</p>
           <input type="button" name="button" value="Buy" class="buyButton">
@@ -104,13 +111,13 @@
           <hr style="height: 3px; background-color: #00F3E7; border: none;">
       <div class="productRow">
         <article class="productInfo"> <!-- Each individual product description -->
-          <div><img alt="sample" src="400x361-books-science-nature.jpg"></div>
+          <div><img alt="sample" src="file:///C|/Users/mohit/Downloads/400x361-books-science-nature.jpg"></div>
           <p class="price">$50</p>
           <p class="productContent">Content holder</p>
           <input type="button" name="button" value="Buy" class="buyButton">
         </article>
         <article class="productInfo"><!-- Each individual product description -->
-          <div><img alt="sample" src="400x361-books-science-nature.jpg"></div>
+          <div><img alt="sample" src="file:///C|/Users/mohit/Downloads/400x361-books-science-nature.jpg"></div>
           <p class="price">$50</p>
           <p class="productContent">Content holder</p>
           <input type="button" name="button" value="Buy" class="buyButton">
